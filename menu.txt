@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Restaurante Dona Elaine na Cozinha - Sabores autênticos da culinária gaúcha">
+    <title>Menu - Dona Elaine na Cozinha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><b>Dona Elaine na Cozinha</b></h1>
+        <p>Os segredos da comida gaúcha</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Sobre Nós</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contato.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="cardapio">
+        <h2>Cardápio</h2>
+        <p><a href="cardapio.html">Explore nossos pratos e faça seu pedido.</a></p>
+    </section>
+
+    <section id="prato-da-casa">
+        <h2>Prato da Casa</h2>
+        <p><a href="prato-da-casa.html">Nosso prato mais famoso: Galinhada irresistível!</a></p>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <p><a href="galeria.html">Confira fotos e vídeos de nossas delícias e momentos especiais.</a></p>
+    </section>
+
+    <footer>
+        <p>Acompanhe nossas redes sociais @donaelainenacozinha</p>
+        <p>Endereço: Rua da Eevee, 333, Missões das Meninas - Rio Grande do Sul</p>
+    </footer>
+</body>
+</html>

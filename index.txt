@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Restaurante Dona Elaine na Cozinha - Sabores autênticos da culinária gaúcha">
+    <title>Sobre Nós - Dona Elaine na Cozinha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><b>Dona Elaine na Cozinha</b></h1>
+        <p>Os segredos da comida gaúcha</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Sobre Nós</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contato.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="curiosidades">
+        <h2>Sobre nós</h2>
+        <p>Bem-vindo(a) ao <strong>Dona Elaine na Cozinha</strong>, onde a tradição da comida gaúcha ganha vida em cada prato. Localizado no coração das Missões, nosso restaurante é um verdadeiro refúgio para os amantes da culinária do Sul do Brasil. Oferecemos uma experiência autêntica com carnes suculentas, preparadas com carinho e muito amor presente no coração de mãe. Aqui, cada refeição é uma celebração dos sabores regionais, acompanhada de um ambiente acolhedor e convidativo. Venha desfrutar da hospitalidade e da rica herança gastronômica que fazem do Dona Elaine na Cozinha o seu destino ideal para uma refeição memorável.</p>
+        <p>Em cada <em>link</em> acima, você pode desvendar os segredos da comida gaúcha e explorar as especialidades do nosso restaurante. Descubra o sabor autêntico do Sul do Brasil, conheça nossos pratos exclusivos e mergulhe na rica tradição culinária que faz do Dona Elaine na Cozinha uma experiência única e inesquecível.</p>
+    </section>
+
+    <footer>
+        <p>Acompanhe nossas redes sociais @donaelainenacozinha</p>
+        <p>Endereço: Rua da Eevee, 333, Missões das Meninas - Rio Grande do Sul</p>
+    </footer>
+</body>
+</html>

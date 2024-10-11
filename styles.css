@@ -1,0 +1,219 @@
+/* Estilos Globais */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-bottom: 5px solid #fff5e4;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.3rem;
+    color: #fff5e4;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.1);
+}
+
+/* Estilos da Página Sobre Nós */
+#curiosidades {
+    padding: 40px 20px;
+    background-color: #fff5e4;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+#curiosidades:hover {
+    transform: translateY(-5px);
+}
+
+#curiosidades h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #ff7e5f;
+}
+
+#curiosidades p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Estilos da Página Menu */
+#cardapio, #prato-da-casa, #galeria {
+    padding: 40px 20px;
+    background-color: #fff5e4;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+#cardapio:hover, #prato-da-casa:hover, #galeria:hover {
+    transform: translateY(-5px);
+}
+
+#cardapio h2, #prato-da-casa h2, #galeria h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #feb47b;
+}
+
+#cardapio p, #prato-da-casa p, #galeria p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+/* Galeria de Imagens */
+#galeria figure {
+    margin: 0;
+    text-align: center;
+}
+
+#galeria img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+#galeria img:hover {
+    transform: scale(1.05);
+}
+
+#galeria figcaption {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Estilos da Página Contatos */
+#contatos {
+    padding: 40px 20px;
+    background-color: #fff5e4;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+#contatos:hover {
+    transform: translateY(-5px);
+}
+
+#contatos h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #feb47b;
+}
+
+#contatos p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+form input, form textarea {
+    width: calc(100% - 20px);
+    padding: 15px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border: 1px solid #ff7e5f;
+    box-shadow: 0 0 8px rgba(255, 126, 95, 0.3);
+}
+
+form input[type="submit"] {
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #feb47b;
+    transform: scale(1.05);
+}
+
+/* Estilos do Rodapé */
+footer {
+    background-color: #3c3c3c;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+footer a {
+    color: #feb47b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffffff;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Restaurante Dona Elaine na Cozinha - Sabores autênticos da culinária gaúcha">
+    <title>Contatos - Dona Elaine na Cozinha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><b>Dona Elaine na Cozinha</b></h1>
+        <p>Os segredos da comida gaúcha</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Sobre Nós</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contato.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contatos">
+        <h2>Contatos</h2>
+        <p>Para reservas ou dúvidas, entre em contato conosco:</p>
+        <p>Telefone: (11) 4002-8922</p>
+        <p>Email: contato@donaelainenacozinha.com</p>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Seu email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>Acompanhe nossas redes sociais @donaelainenacozinha</p>
+        <p>Endereço: Rua da Eevee, 333, Missões das Meninas - Rio Grande do Sul</p>
+    </footer>
+</body>
+</html>
